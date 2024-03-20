@@ -23,7 +23,7 @@
         {
             name: 'Wayne Barnett',
             role: 'Founder & CEO',
-            image: 'wayne-barnett-founder-console.jpg'
+            image: 'wayne-barnett-founder-ceo.jpg'
         },
         {
             name: 'Angela Caroll',
@@ -66,7 +66,7 @@ for (let i = 0; i < ourTeam.length; i++) {
     <li>
     <h2>${thisTeamMember.name}</h2>
     <h4>${thisTeamMember.role}</h4>
-    <p>${thisTeamMember.image}</p>
+    <img src="./img/${thisTeamMember.image}" alt="team-member">
     </li>`
     // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
     membersList.innerHTML += listItem;

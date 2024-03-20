@@ -23,7 +23,7 @@
         {
             name: 'Wayne Barnett',
             role: 'Founder & CEO',
-            image: 'wayne-barnett-founder-console.jpg'
+            image: 'wayne-barnett-founder-ceo.jpg'
         },
         {
             name: 'Angela Caroll',
