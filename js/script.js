@@ -15,3 +15,12 @@
 
 // BONUS 2:
 // Organizzare i singoli membri in card/schede
+
+
+// - Creo l'array di oggetti che deve contenere i dati dei membri del team
+    // - ogni oggetto dovrà avere le chaivi (nome,ruolo,foto)
+// - Stampo in console i dati inseriti di ogni oggetto di tutte le proprietà
+// - Stampo nel DOM le informazioni degli oggetti
+    // - Prendo l'elemento del DOM in cui inserire le stringhe
+    // - Creo un template di quello che voglio inserire nel DOM
+    // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
