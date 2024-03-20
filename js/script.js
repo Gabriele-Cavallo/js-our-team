@@ -51,6 +51,9 @@
             image: 'barbara-ramos-graphic-designer.jpg'
         }
     ];
+// - Stampo nel DOM le informazioni degli oggetti
+    // - Prendo l'elemento del DOM in cui inserire le stringhe
+    let membersList = document.querySelector('#members-list');
 // - Stampo in console i dati inseriti di ogni oggetto di tutte le proprietà
 for (let i = 0; i < ourTeam.length; i++) {
     let thisTeamMember = ourTeam[i];
@@ -58,10 +61,6 @@ for (let i = 0; i < ourTeam.length; i++) {
         let teamMember = thisTeamMember[key];
         console.log(key + ': ' + teamMember);
     };
-}
-// - Stampo nel DOM le informazioni degli oggetti
-    // - Prendo l'elemento del DOM in cui inserire le stringhe
-    let membersList = document.querySelector('#members-list');
     // - Creo un template di quello che voglio inserire nel DOM
     let listItem = `
     <li>
@@ -71,4 +70,5 @@ for (let i = 0; i < ourTeam.length; i++) {
     </li>`
     // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
     membersList.innerHTML += listItem;
+}
     
