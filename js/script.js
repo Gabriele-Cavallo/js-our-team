@@ -61,6 +61,14 @@ for (let i = 0; i < ourTeam.length; i++) {
 }
 // - Stampo nel DOM le informazioni degli oggetti
     // - Prendo l'elemento del DOM in cui inserire le stringhe
+    let membersList = document.querySelector('#members-list');
     // - Creo un template di quello che voglio inserire nel DOM
+    let listItem = `
+    <li>
+    <h2>[Name]</h2>
+    <h4>[Role]</h4>
+    <p>[img]</p>
+    </li>`
     // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
+    membersList.innerHTML += listItem;
     
