@@ -64,9 +64,9 @@ for (let i = 0; i < ourTeam.length; i++) {
     // - Creo un template di quello che voglio inserire nel DOM
     let listItem = `
     <li>
-    <h2>[Name]</h2>
-    <h4>[Role]</h4>
-    <p>[img]</p>
+    <h2>${thisTeamMember.name}</h2>
+    <h4>${thisTeamMember.role}</h4>
+    <p>${thisTeamMember.image}</p>
     </li>`
     // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
     membersList.innerHTML += listItem;
