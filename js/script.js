@@ -52,7 +52,15 @@
         }
     ];
 // - Stampo in console i dati inseriti di ogni oggetto di tutte le proprietà
+for (let i = 0; i < ourTeam.length; i++) {
+    let thisTeamMember = ourTeam[i];
+    for (let key in thisTeamMember){
+        let teamMember = thisTeamMember[key];
+        console.log(key + ': ' + teamMember);
+    };
+}
 // - Stampo nel DOM le informazioni degli oggetti
     // - Prendo l'elemento del DOM in cui inserire le stringhe
     // - Creo un template di quello che voglio inserire nel DOM
     // - Popolo l'elemento del DOM inserendo il template con le variabili contenenti le informazioni al posto dei placeholder
+    
