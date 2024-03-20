@@ -19,6 +19,38 @@
 
 // - Creo l'array di oggetti che deve contenere i dati dei membri del team
     // - ogni oggetto dovrà avere le chaivi (nome,ruolo,foto)
+    const ourTeam = [
+        {
+            name: 'Wayne Barnett',
+            role: 'Founder & CEO',
+            image: 'wayne-barnett-founder-console.jpg'
+        },
+        {
+            name: 'Angela Caroll',
+            role: 'Chief Editor',
+            image: 'angela-caroll-chief-editor.jpg'
+        },
+        {
+            name: 'Walter Gordon',
+            role: 'Office Manager',
+            image: 'walter-gordon-office-manager.jpg'
+        },
+        {
+            name: 'Angela Lopez',
+            role: 'Social Media Manager',
+            image: 'angela-lopez-social-media-manager.jpg'
+        },
+        {
+            name: 'Scott Estrada',
+            role: 'Develpoer',
+            image: 'scott-estrada-developer.jpg'
+        },
+        {
+            name: 'Barbara Ramos',
+            role: 'Graphic Designer',
+            image: 'barbara-ramos-graphic-designer.jpg'
+        }
+    ];
 // - Stampo in console i dati inseriti di ogni oggetto di tutte le proprietà
 // - Stampo nel DOM le informazioni degli oggetti
     // - Prendo l'elemento del DOM in cui inserire le stringhe
