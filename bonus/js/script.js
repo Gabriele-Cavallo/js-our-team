@@ -63,7 +63,7 @@ for (let i = 0; i < ourTeam.length; i++) {
     };
     // - Creo un template di quello che voglio inserire nel DOM
     let listItem = `
-    <li>
+    <li class="card col-4">
     <h2>${thisTeamMember.name}</h2>
     <h4>${thisTeamMember.role}</h4>
     <img src="./img/${thisTeamMember.image}" alt="team-member">
